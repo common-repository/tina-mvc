@@ -1,0 +1,24 @@
+/**
+ * Styles for the form helper class
+ *
+ * @package    Tina-MVC
+ * @subpackage Core
+ * @author     Francis Crossen <francis@crossen.org>
+ */
+.tina_mvc_form_pair {
+    width: 100%;
+}
+
+.tina_mvc_form_label {
+    display: block;
+}
+
+.tina_mvc_form_input {
+    min-width: 10em;
+    max-width: 20em;
+    width: 100%;
+}
+
+.tina_mvc_form_error_message, .tina_mvc_field_error_message {
+    color: red;
+}

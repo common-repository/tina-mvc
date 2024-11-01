@@ -1,0 +1,15 @@
+/**
+ * Styles for the Google Map input type - form helper class
+ *
+ * @package    Tina-MVC
+ * @subpackage Core
+ * @author     Francis Crossen <francis@crossen.org>
+ */
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+.googlemap_canvas { height: 100% }
+
+/* see http://stackoverflow.com/questions/12494018/standard-marker-in-google-maps-too-small */
+.googlemap_canvas img {
+    max-width: none !important;
+}
